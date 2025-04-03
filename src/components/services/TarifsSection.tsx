@@ -4,7 +4,7 @@ import Button from "@/components/ui/Button";
 function TarifsSection() {
     return (
     <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <h2 className="text-2xl font-bold md:text-4xl md:leading-tight text-start">Tarifs</h2>
+        <h2 className="text-2xl font-bold md:text-4xl md:leading-tight text-start text-gray-900">Tarifs</h2>
 
         {/* Grid */}
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:items-center">

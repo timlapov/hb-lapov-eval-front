@@ -5,8 +5,8 @@ import NavLink from "@/layouts/header/NavLink";
 
 function WhySection() {
     return (
-        <section>
-            <h2 className="font-bold text-4xl mt-15 ms-8 text-gray-800">Pourquoi choisir WorkSphere ?</h2>
+        <section className={`my-20`}>
+            <h2 className="font-bold text-4xl mt-20 ms-8 text-gray-900">Pourquoi choisir WorkSphere ?</h2>
             {/* Card Blog */}
             <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-10 mx-auto">
                 {/* Grid */}

@@ -7,11 +7,7 @@ import NavLink from "@/layouts/header/NavLink";
 
 function Header() {
     return (
-        // <header  className="flex justify-between px-10 pb-10">
-        //     <Image src={`/images/logo.svg`} alt={`logo`} width={`50`} height={`50`}></Image>
-        //
-        // </header>
-        <header className="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-black">
+        <header className="flex flex-wrap md:justify-start md:flex-nowrap z-50 h-15 w-full bg-black">
             <nav className="relative max-w-5xl w-full md:flex md:items-center md:justify-between md:gap-3 mx-auto px-4 sm:px-6 lg:px-8 py-2">
                 {/* Logo w/ Collapse Button */}
                 <div className="flex items-center justify-between">

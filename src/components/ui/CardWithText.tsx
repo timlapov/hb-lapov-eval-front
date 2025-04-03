@@ -10,7 +10,7 @@ function CardWithText({number, title, description}:any) {
                 <h3 className="my-3 text-gray-800 text-xl font-semibold group-hover:text-white">
                     {title}
                 </h3>
-                <p className="mt-1 text-gray-600 group-hover:text-white">
+                <p className="mt-1 text-gray-500 group-hover:text-white">
                     {description}
                 </p>
             </div>

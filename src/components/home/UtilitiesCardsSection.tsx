@@ -6,7 +6,7 @@ function UtilitiesCardsSection() {
         <section className="flex flex-col bg-gray-200 px-20 py-15">
             <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8">
                 <div className="flex flex-col justify-center">
-                    <h2 className={`text-4xl font-bold pe-3 pb-3`}>Outils essentiels</h2>
+                    <h2 className={`text-4xl font-bold pe-3 pb-3 text-gray-900`}>Outils essentiels</h2>
                     <p className={`text-gray-600`}>Des fonctionnalités conçues pour améliorer votre efficacité et simplifier votre quotidien. Profitez d'un espace de travail optimisé pour mieux organiser vos tâches et collaborer sans effort.</p>
                 </div>
                 <CardWithText
