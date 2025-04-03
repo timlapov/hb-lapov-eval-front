@@ -12,13 +12,13 @@
 /* Пример подключения Poppins */
 @font-face {
   font-family: 'Poppins';
-  src: url('../../public/fonts/Poppins-Medium.ttf') format('ttf');
+  src: url('../../public/fonts/Poppins-Medium.ttf') format('truetype');
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../../public/fonts/Roboto-Variable.ttf') format('ttf');
+  src: url('../../public/fonts/Roboto-Variable.ttf') format('truetype');
   font-display: swap;
 }
 
