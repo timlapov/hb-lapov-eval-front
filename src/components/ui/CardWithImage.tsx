@@ -21,7 +21,7 @@ function CardWithImage({title, description, imageUrl}:any) {
 
                 <div className="absolute top-0 inset-x-0 z-10">
                     <div className="flex flex-col h-full p-4 sm:p-6">
-                        <h3 className="text-lg sm:text-3xl font-semibold text-white group-hover:text-white/70 group-focus:text-white/80">
+                        <h3 className="text-3xl font-semibold text-white group-hover:text-white/70 group-focus:text-white/80">
                             {title}
                         </h3>
                         <p className="mt-2 text-white/90">

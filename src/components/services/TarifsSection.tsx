@@ -3,11 +3,11 @@ import Button from "@/components/ui/Button";
 
 function TarifsSection() {
     return (
-    <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div className="max-w-[85rem] px-6 py-10 sm:px-10 lg:px-20 lg:py-14 mx-auto">
         <h2 className="text-2xl font-bold md:text-4xl md:leading-tight text-start text-gray-900">Tarifs</h2>
 
         {/* Grid */}
-        <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:items-center">
+        <div className="mt-12 grid md:grid-cols-3 lg:grid-cols-3 gap-6 lg:items-center">
             {/* Card */}
             <div className="flex flex-col border border-gray-200 text-start rounded-xl p-5">
                 <p className="mb-1"><span className="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-xs uppercase font-semibold bg-teal-600 text-white">Basic</span></p>

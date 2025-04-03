@@ -7,7 +7,7 @@ import NavLink from "@/layouts/header/NavLink";
 
 function Header() {
     return (
-        <header className="flex flex-wrap md:justify-start md:flex-nowrap z-50 h-15 w-full bg-black">
+        <header className="relative z-50 flex flex-wrap md:justify-start md:flex-nowrap h-15 w-full bg-black">
             <nav className="relative max-w-5xl w-full md:flex md:items-center md:justify-between md:gap-3 mx-auto px-4 sm:px-6 lg:px-8 py-2">
                 {/* Logo w/ Collapse Button */}
                 <div className="flex items-center justify-between">
@@ -28,18 +28,17 @@ function Header() {
                 {/* End Logo w/ Collapse Button */}
 
                 {/* Collapse */}
-                <div id="hs-base-header" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block" aria-labelledby="hs-base-header-collapse">
+                <div
+                    id="hs-base-header"
+                    className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block bg-black text-white"
+                    aria-labelledby="hs-base-header-collapse"
+                >
                     <div className="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
                         <div className="py-2 md:py-0 flex flex-col md:flex-row md:items-center md:justify-end gap-0.5 md:gap-1">
-
-                            <NavLink title={`HOME`} link={`/`}/>
-
-                            <NavLink title={`ABOUT US`} link={`/`}/>
-
-                            <NavLink title={`OUR SERVICES`} link={`/tarifs`}/>
-
-                            <NavLink title={`COMMUNITY`} link={`/`}/>
-
+                            <NavLink title="HOME" link="/" />
+                            <NavLink title="ABOUT US" link="/" />
+                            <NavLink title="OUR SERVICES" link="/tarifs" />
+                            <NavLink title="COMMUNITY" link="/" />
                         </div>
                     </div>
                 </div>
