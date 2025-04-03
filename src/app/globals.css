@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@import "preline/variants.css";
+@source "../../node_modules/preline/dist/*.js";
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Пример подключения Poppins */
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../public/fonts/Poppins-Medium.ttf') format('ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../public/fonts/Roboto-Variable.ttf') format('ttf');
+  font-display: swap;
+}
+
+/* ...если нужны другие начертания - Regular, Medium, Bold и т.д. - добавляйте дополнительные @font-face */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+/*@media (prefers-color-scheme: dark) {*/
+/*  :root {*/
+/*    --background: #0a0a0a;*/
+/*    --foreground: #ededed;*/
+/*  }*/
+/*}*/
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+li {
+  list-style: none;
+}
